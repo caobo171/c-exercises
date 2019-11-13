@@ -24,6 +24,17 @@
                 "kind": "build",
                 "isDefault": true
             }
+        },
+
+        {
+            "label": "build-trees",
+            "type": "shell",
+            "command": "g++ -g trees/*",
+            "problemMatcher": "$gcc",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }
