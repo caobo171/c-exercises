@@ -8,7 +8,7 @@
             "name": "g++ build and debug active file",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/main",
+            "program": "${workspaceFolder}/a.out",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
@@ -22,7 +22,7 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "build",
+            "preLaunchTask": "build-linklist",
             "miDebuggerPath": "/usr/bin/gdb"
         }
     ]

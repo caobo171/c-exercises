@@ -4,10 +4,26 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build",
+            "label": "build-linklist",
             "type": "shell",
-            "command": "g++ -g *",
-            "problemMatcher": "$gcc"
+            "command": "g++ -g link_list/*",
+            "problemMatcher": "$gcc",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+
+        },
+
+        {
+            "label": "build-linklist",
+            "type": "shell",
+            "command": "g++ -g link_list/*",
+            "problemMatcher": "$gcc",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }
